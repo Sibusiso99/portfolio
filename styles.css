@@ -251,3 +251,49 @@ header.sticky{
 .row:hover{
     transform: translateY(-8px);
 }
+.portfolio{
+    background: var(--secound-bg-color);
+}
+.portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(370px,auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 4.5rem;
+    cursor: pointer;
+}
+.box img{
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transform: all .30s;
+}
+.box p{
+    color: var(--secound-color);
+    font-size: var(--p-font);
+    margin-bottom: 15px;
+}
+.box h5{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.box img:hover{
+    transform: scale(1.1);
+}
+.contact{
+    background: var(--bg-color);
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-items: center;
+    grid-gap: 3rem;
+}
+.contact-img img{
+    max-width: 100%;
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
